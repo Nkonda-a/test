@@ -3,4 +3,8 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
+ env_file:
+- .env
+environment:
+ TZ: ${TIMEZONE}
 
