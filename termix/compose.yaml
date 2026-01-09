@@ -1,0 +1,6 @@
+services:
+  termix:
+    image: termix:latest
+    ports:
+      - "80:80"
+
